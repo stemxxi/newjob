@@ -1,0 +1,72 @@
+.main{
+    padding-bottom: 200px;
+    background: rgb(254,251,233, 0.6);
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-title {
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #1E959B;
+    font-family: var(--Poppins-SemiBold);
+    font-weight: 700;
+    margin-bottom: 27px;
+    margin-top: 46px;
+  }
+  .skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    border: 2px solid gray;
+    justify-content: center;
+    padding: 55px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 10%);
+    transition: 0.5s;
+    height: max-content;
+    background: #FFFFFF;
+    
+  }
+  .main-btn {
+    font-size: 22px !important;
+  }
+  .skills-card:hover {
+    box-shadow: inset 0 4px 4px 4px rgba(30, 149, 155, 0.5);
+    transition: 0.5s;
+  }
+  .skills__card-title {
+    color: #333;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+  }
+  .skills__card-description {
+    font-size: 19px;
+    line-height: 32px;
+    color: #333;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .skills-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+  }
+  .skills-grid{
+    display: grid;
+    justify-items: center;
+  }
