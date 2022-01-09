@@ -79,7 +79,7 @@ button:focus:not(:focus-visible) {
 .header{
     padding-top: 120px;
     padding: 120px 15px 60px 15px;
-    background: rgb(215,206,199, 0.6) !important;
+    /* background: rgb(215,206,199, 0.6) !important; */
 }
 
 .header-content{
@@ -89,7 +89,7 @@ button:focus:not(:focus-visible) {
 }
 
 .header__content-title{
-    font-size: 50px;
+    font-size: 62px;
     line-height: 50px;
     text-transform: uppercase;
     color: #1E959B;
@@ -105,8 +105,8 @@ button:focus:not(:focus-visible) {
     font-size: 25px;
     line-height: 32px;
     color: #3C3C3C;
-    font-family: var(--Poppins-SemiBold);
-    max-width: 700px;
+    font-family: "Source Serif Pro", serif;
+    max-width: 900px;
     width: 100%;
     margin-bottom: 60px;
 }
@@ -127,6 +127,12 @@ button:focus:not(:focus-visible) {
     border-radius: 30px;
     z-index: 1;
     position: relative;
+}
+
+.header__content-btn:hover{
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+    box-shadow: 0 0 0 0.15rem rgb(225 83 97 / 50%);
 }
 
 .header-ex-img{

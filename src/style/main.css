@@ -1,6 +1,6 @@
 .main{
     padding-bottom: 200px;
-    background: rgb(254,251,233, 0.6);
+    /* background: rgb(254,251,233, 0.6); */
     
 }
 
@@ -9,11 +9,11 @@
     justify-content: center;
   }
   .skills-title {
-    font-size: 35px;
+    font-size: 48px;
     line-height: 50px;
     text-transform: uppercase;
     color: #1E959B;
-    font-family: var(--Poppins-SemiBold);
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-bottom: 27px;
     margin-top: 46px;
